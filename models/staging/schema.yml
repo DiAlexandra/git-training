@@ -5,7 +5,7 @@ sources:
     schema: dbt_adiallo_finance
     tables:
       - name: campaign_days
-        identifier: finance_campaign_days
+        identifier: finance_campaign_day
       - name: campaign_months
         identifier: finance_campaigns_month
       - name: days
