@@ -1,0 +1,9 @@
+version : 2
+
+sources:
+  - name: dbt_adiallo_finance
+    tables:
+
+      - name: finance_campaign_days
+      - name: finance_campaigns_month
+      - name: finance_days
