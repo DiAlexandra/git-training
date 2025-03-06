@@ -2,7 +2,7 @@ with
 
 source as (
 
-    select * from {{ source('dbt_adiallo_finance', 'finance_campaigns_month') }}
+    select * from {{ source('finance', 'campaign_months') }}
 
 ),
 

@@ -1,9 +1,12 @@
 version : 2
 
 sources:
-  - name: dbt_adiallo_finance
+  - name: finance
+    schema: dbt_adiallo_finance
     tables:
-
-      - name: finance_campaign_days
-      - name: finance_campaigns_month
-      - name: finance_days
+      - name: campaign_days
+        identifier: finance_campaign_days
+      - name: campaign_months
+        identifier: finance_campaigns_month
+      - name: days
+        identifier: finance_days
